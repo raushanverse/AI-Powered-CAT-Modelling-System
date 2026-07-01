@@ -91,3 +91,99 @@ The proposed solution will help the organization to:
 - Increase operational efficiency.
 - Improve reporting and analytics.
 - Support data-driven decision-making.
+
+
+# 2. Business Objectives
+
+The primary objective of this project is to develop an AI-powered CAT (Catastrophe) Modelling platform that enables insurance and reinsurance organizations to assess catastrophe risks, estimate financial losses, and support informed business decisions.
+
+The system aims to replace manual spreadsheet-based risk assessment with an intelligent, centralized, and data-driven solution.
+
+## Business Objectives
+
+- Automate catastrophe risk assessment.
+- Predict financial losses using Machine Learning.
+- Improve the accuracy of risk analysis.
+- Reduce manual effort and operational errors.
+- Support faster insurance claim estimation.
+- Improve catastrophe reporting and analytics.
+- Assist in premium and reinsurance decision-making.
+- Provide centralized property and catastrophe data management.
+- Enhance business decision-making through dashboards and reports.
+
+---
+
+# 3. Project Scope
+
+## In Scope
+
+The following functionalities are included in the current release of the project:
+
+### User Management
+
+- User Login
+- Role-Based Access
+- Profile Management
+
+### Property Management
+
+- Register Property
+- Update Property Details
+- Search Property
+- Delete Property
+- View Property Portfolio
+
+### Catastrophe Management
+
+- Maintain Catastrophe Events
+- Disaster Type Management
+- Historical Event Repository
+
+### Risk Assessment
+
+- Exposure Assessment
+- Vulnerability Assessment
+- Risk Score Calculation
+- Property Risk Classification
+
+### Machine Learning
+
+- Financial Loss Prediction
+- Claim Amount Prediction
+- Property Risk Classification
+
+### Reporting
+
+- PDF Report Generation
+- Executive Reports
+- Risk Summary Reports
+
+### Dashboard
+
+- Property Analytics
+- Risk Distribution
+- Loss Analytics
+- Catastrophe Trends
+
+### Administration
+
+- User Management
+- Master Data Management
+- Audit Logs
+
+---
+
+## Out of Scope
+
+The following features are excluded from Version 1.0:
+
+- Mobile Application
+- Online Premium Payment
+- Live Weather API Integration
+- GIS Satellite Mapping
+- Multi-Language Support
+- SMS Notifications
+- Payment Gateway
+- Customer Self-Service Portal
+
+These features may be considered in future releases.
