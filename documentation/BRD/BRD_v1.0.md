@@ -187,3 +187,107 @@ The following features are excluded from Version 1.0:
 - Customer Self-Service Portal
 
 These features may be considered in future releases.
+
+
+# 4. Stakeholders
+
+The following stakeholders are involved in the development, operation, and maintenance of the AI-Powered CAT Modelling & Risk Assessment Platform.
+
+| Stakeholder | Responsibility |
+|--------------|----------------|
+| Insurance Company | Uses the system to assess catastrophe risk and manage insured properties. |
+| Reinsurance Company | Evaluates portfolio risk and determines reinsurance strategy. |
+| Underwriter | Reviews property information and makes underwriting decisions. |
+| CAT Modelling Analyst | Performs catastrophe risk analysis and validates model results. |
+| Claims Team | Estimates and manages insurance claims after catastrophe events. |
+| Risk Manager | Monitors organizational risk exposure and financial impact. |
+| Business Analyst | Gathers business requirements and ensures business objectives are met. |
+| Project Manager | Plans, monitors, and controls project execution. |
+| System Administrator | Manages users, permissions, configurations, and system maintenance. |
+| Senior Management | Reviews reports and supports strategic business decisions. |
+
+---
+
+# 5. User Roles
+
+The system supports multiple user roles. Each role has different responsibilities and system permissions.
+
+## 5.1 Administrator
+
+Responsibilities:
+
+- Manage system users.
+- Assign user roles.
+- Configure system settings.
+- Manage master data.
+- View audit logs.
+- Generate administrative reports.
+
+---
+
+## 5.2 Underwriter
+
+Responsibilities:
+
+- Register insured properties.
+- Review property details.
+- Assess underwriting risk.
+- Approve or reject property records.
+- View catastrophe exposure.
+
+---
+
+## 5.3 CAT Modelling Analyst
+
+Responsibilities:
+
+- Upload catastrophe event data.
+- Perform catastrophe modelling.
+- Calculate exposure.
+- Calculate vulnerability.
+- Generate catastrophe reports.
+- Validate prediction results.
+
+---
+
+## 5.4 Risk Analyst
+
+Responsibilities:
+
+- Review portfolio risk.
+- Analyze financial loss predictions.
+- Monitor catastrophe trends.
+- Prepare executive reports.
+
+---
+
+## 5.5 Claims Officer
+
+Responsibilities:
+
+- Review predicted claim amount.
+- Validate claim information.
+- Monitor claim status.
+- Generate claim reports.
+
+---
+
+## 5.6 Reinsurance Analyst
+
+Responsibilities:
+
+- Review catastrophe portfolio.
+- Analyze probable maximum loss (PML).
+- Recommend reinsurance coverage.
+- Prepare reinsurance reports.
+
+---
+
+## 5.7 Business Manager
+
+Responsibilities:
+
+- View executive dashboard.
+- Monitor business performance.
+- Analyze catastrophe exposure.
+- Support strategic business decisions. -->
