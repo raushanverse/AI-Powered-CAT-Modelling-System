@@ -65,3 +65,46 @@ user_id
 | status | Active / Inactive |
 | created_at | Account Creation Date |
 | updated_at | Last Updated Date |
+
+
+
+
+---
+
+# Table Details
+
+## Table Name
+
+properties
+
+### Purpose
+
+Stores insured property information used for catastrophe risk assessment and financial loss prediction.
+
+### Primary Key
+
+property_id
+
+### Important Columns
+
+| Column | Description |
+|---------|-------------|
+| property_id | Unique Property ID |
+| owner_name | Property Owner Name |
+| property_name | Property Name |
+| address | Property Address |
+| city | City |
+| state | State |
+| pincode | Postal Code |
+| building_type | Residential / Commercial / Industrial |
+| construction_material | Brick / Concrete / Steel / Wood |
+| construction_year | Year of Construction |
+| floors | Number of Floors |
+| occupancy_type | Owner Occupied / Tenant / Vacant |
+| sum_insured | Total Insured Amount |
+| premium | Insurance Premium |
+| flood_zone | Flood Risk Zone |
+| earthquake_zone | Earthquake Risk Zone |
+| cyclone_zone | Cyclone Risk Zone |
+| created_at | Record Creation Date |
+| updated_at | Record Update Date |
