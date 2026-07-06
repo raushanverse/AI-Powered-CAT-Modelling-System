@@ -1,38 +1,38 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="pj0-c9oRB66dS4UoXYpk">
-    <mxGraphModel dx="858" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VCsxVtdS6t70vtWORn5E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#1BA1E2,#66B2FF);fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;👤 USER&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;• Insurance Company&lt;/div&gt;&lt;div&gt;• Risk Analyst&lt;/div&gt;&lt;div&gt;• Admin&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="140" x="410" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#008A00,#33FF33);fontColor=#ffffff;strokeColor=#005700;" value="&lt;div&gt;🌐 WEB FRONTEND&lt;/div&gt;&lt;div&gt;&lt;div&gt;Frontend (HTML/CSS/JavaScript)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bootstrap&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dashboard&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Forms&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="140" x="410" y="210" as="geometry" />
+        <mxCell id="VCsxVtdS6t70vtWORn5E-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#008A00,#33FF33);fontColor=#ffffff;strokeColor=#005700;" value="&lt;div&gt;🌐 WEB FRONTEND&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Flask Web Interface&lt;/div&gt;&lt;div&gt;HTML&lt;/div&gt;&lt;div&gt;CSS&lt;/div&gt;&lt;div&gt;JavaScript&lt;/div&gt;&lt;div&gt;Bootstrap&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="410" y="210" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;div&gt;⚙️ FLASK BACKEND&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;REST API&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Authentication&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Business Logic&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Session Management&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="140" x="410" y="400" as="geometry" />
+          <mxGeometry height="150" width="140" x="410" y="370" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF99FF);" value="&lt;div&gt;📊 OUTPUT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Score&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Premium&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Reports&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dashboard&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Analytics&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="140" x="410" y="1120" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CC0000);" value="&lt;div&gt;🔐 AUTHENTICATION&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Login&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Role Based Access&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Security&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="140" x="720" y="600" as="geometry" />
+          <mxGeometry height="110" width="140" x="720" y="585" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-18" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="VCsxVtdS6t70vtWORn5E-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E3C800,#A47D00);fontColor=#000000;strokeColor=#B09500;" value="&lt;div&gt;🧠 BUSINESS LOGIC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Property Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Policy Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Claims&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Assessment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Claim Processing&lt;/div&gt;" vertex="1">
-          <mxGeometry height="165" width="140" x="410" y="600" as="geometry" />
+        <mxCell id="VCsxVtdS6t70vtWORn5E-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#E3C800,#A47D00);fontColor=#000000;strokeColor=#B09500;" value="&lt;div&gt;🧠 BUSINESS LOGIC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Property Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Policy Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Claims&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Assessment&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="410" y="585" as="geometry" />
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;fontStyle=0" value="&lt;div&gt;🤖 AI / ML ENGINE&lt;/div&gt;&lt;div&gt;&lt;div&gt;Machine Learning Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Prediction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Loss Estimation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Premium Recommendation&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="135" width="140" x="100" y="600" as="geometry" />
+        <mxCell id="VCsxVtdS6t70vtWORn5E-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="&lt;div&gt;🤖 AI / ML ENGINE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Prediction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Premium Prediction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Catastrophe Analysis&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="140" x="100" y="585" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-17" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VCsxVtdS6t70vtWORn5E-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#666666);" value="&lt;div&gt;🗄️ MYSQL DATABASE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Users&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Properties&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Policies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Claims&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Risk Assessment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Predictions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Reinsurance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Audit Logs&lt;/div&gt;" vertex="1">
-          <mxGeometry height="250" width="140" x="410" y="840" as="geometry" />
+          <mxGeometry height="250" width="140" x="410" y="800" as="geometry" />
         </mxCell>
         <mxCell id="VCsxVtdS6t70vtWORn5E-10" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="VCsxVtdS6t70vtWORn5E-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -61,19 +61,19 @@
             <mxPoint x="700" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-16" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-3" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="VCsxVtdS6t70vtWORn5E-6" value="">
+        <mxCell id="VCsxVtdS6t70vtWORn5E-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="VCsxVtdS6t70vtWORn5E-6" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="480" y="520" as="sourcePoint" />
             <mxPoint x="700" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-20" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VCsxVtdS6t70vtWORn5E-8" value="">
+        <mxCell id="VCsxVtdS6t70vtWORn5E-20" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="750" y="780" as="sourcePoint" />
             <mxPoint x="480" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VCsxVtdS6t70vtWORn5E-22" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VCsxVtdS6t70vtWORn5E-8" value="">
+        <mxCell id="VCsxVtdS6t70vtWORn5E-22" edge="1" parent="1" source="VCsxVtdS6t70vtWORn5E-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="180" y="770" as="sourcePoint" />
             <mxPoint x="480" y="800" as="targetPoint" />
