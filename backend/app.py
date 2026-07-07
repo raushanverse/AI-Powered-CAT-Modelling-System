@@ -1,11 +1,15 @@
 from flask import Flask
+from routes.user_routes import user_bp
 
+app = Flask(__name__)
 
-def create_app():
-    app = Flask(__name__)
+app.register_blueprint(user_bp)
 
-    @app.route("/")
-    def home():
-        return "AI Powered CAT Modelling System Backend is Running Successfully!"
+@app.route("/")
+def home():
+    return {
+        "message": "CAT Modelling System API Running Successfully 🚀"
+    }
 
-    return app
+if __name__ == "__main__":
+    app.run(debug=True)
