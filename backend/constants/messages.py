@@ -1,8 +1,26 @@
-SUCCESS_USER_CREATED = "User created successfully"
-SUCCESS_USER_UPDATED = "User updated successfully"
-SUCCESS_USER_DELETED = "User deleted successfully"
+# User Messages
+USER_CREATED = "User created successfully."
+USER_FETCHED = "Users fetched successfully."
+USER_FOUND = "User fetched successfully."
+USER_NOT_FOUND = "User not found."
 
-USER_NOT_FOUND = "User not found"
+# Database Messages
+DATABASE_CONNECTION_ERROR = "Database connection failed."
 
-DATABASE_CONNECTION_SUCCESS = "Database Connected Successfully"
-DATABASE_CONNECTION_FAILED = "Database Connection Failed"
+# Validation Messages
+INVALID_REQUEST = "Invalid request data."
+
+# General Messages
+INTERNAL_SERVER_ERROR = "Internal server error."
+
+EMAIL_ALREADY_EXISTS = "Email already registered."
+
+EMPLOYEE_ALREADY_EXISTS = "Employee ID already exists."
+
+LOGIN_SUCCESS = "Login successful."
+
+INVALID_CREDENTIALS = "Invalid email or password."
+
+TOKEN_GENERATED = "JWT token generated successfully."
+
+UNAUTHORIZED = "Unauthorized access."

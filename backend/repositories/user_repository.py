@@ -43,40 +43,49 @@ def create_user(data):
 
     cursor = connection.cursor()
 
-    query = """
-    INSERT INTO users
-    (
-        full_name,
-        employee_id,
-        email,
-        phone,
-        password,
-        role,
-        office_location,
-        status
-    )
-    VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
-    """
+    try:
+        query = """
+        INSERT INTO users
+        (
+            full_name,
+            employee_id,
+            email,
+            phone,
+            password,
+            role,
+            office_location,
+            status
+        )
+        VALUES (%s,%s,%s,%s,%s,%s,%s,%s)
+        """
 
-    values = (
-        data["full_name"],
-        data["employee_id"],
-        data["email"],
-        data["phone"],
-        data["password"],
-        data["role"],
-        data["office_location"],
-        "Active"
-    )
+        values = (
+            data["full_name"],
+            data["employee_id"],
+            data["email"],
+            data["phone"],
+            data["password"],
+            data["role"],
+            data["office_location"],
+            "Active"
+        )
 
-    cursor.execute(query, values)
+        cursor.execute(query, values)
 
-    connection.commit()
+        connection.commit()
 
-    cursor.close()
-    connection.close()
+        return True
 
-    return True
+    except Exception as e:
+        print(f"❌ Repository Error: {e}")
+
+        connection.rollback()
+
+        return False
+
+    finally:
+        cursor.close()
+        connection.close()
 
 
 def get_user_by_id(user_id):
@@ -105,6 +114,46 @@ def get_user_by_id(user_id):
     """
 
     cursor.execute(query, (user_id,))
+
+    user = cursor.fetchone()
+
+    cursor.close()
+    connection.close()
+
+    return user
+
+
+def get_user_by_email(email):
+    connection = get_db_connection()
+
+    if connection is None:
+        return None
+
+    cursor = connection.cursor(dictionary=True)
+
+    query = "SELECT * FROM users WHERE email = %s"
+
+    cursor.execute(query, (email,))
+
+    user = cursor.fetchone()
+
+    cursor.close()
+    connection.close()
+
+    return user
+
+
+def get_user_by_employee_id(employee_id):
+    connection = get_db_connection()
+
+    if connection is None:
+        return None
+
+    cursor = connection.cursor(dictionary=True)
+
+    query = "SELECT * FROM users WHERE employee_id = %s"
+
+    cursor.execute(query, (employee_id,))
 
     user = cursor.fetchone()
 

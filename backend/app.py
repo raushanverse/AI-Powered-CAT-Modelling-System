@@ -4,12 +4,10 @@ from config import Config
 from extensions import cors, jwt, swagger
 from routes.user_routes import user_bp
 from logger import logger
+from routes.auth_routes import auth_bp
 
 
 def create_app():
-    """
-    Application Factory
-    """
 
     app = Flask(__name__)
 
@@ -23,22 +21,29 @@ def create_app():
 
     # Register Blueprints
     app.register_blueprint(user_bp)
+    app.register_blueprint(auth_bp)
 
-    # Home Route
     @app.route("/")
     def home():
-        logger.info("Home API Accessed")
-
         return {
             "status": "success",
             "message": "CAT Modelling System API Running Successfully 🚀"
         }
 
-    return app
+    print(app.url_map)
 
+    return app
 
 app = create_app()
 
+app.logger.handlers = logger.handlers
+app.logger.setLevel(logger.level)
+
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(
+        host="127.0.0.1",
+        port=5000,
+        debug=True,
+        use_reloader=False
+    )
